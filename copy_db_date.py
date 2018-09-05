@@ -5,6 +5,7 @@ from configs.orm_db import lorm_pool_57, lorm_pool as lorm_pool_yh
 from configs import dbconfig as conn
 from common.common import Struct
 from configs import db56config as db_56, dbconfig as db_57
+print('copy_db_date.py')
 
 creat_sql = """
 SET FOREIGN_KEY_CHECKS=0;
